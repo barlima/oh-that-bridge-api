@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :bridge do
-    sequence(:name)     { |n| "#{Faker::Lorem.word}-#{n}"}
+    sequence(:name)     { |n| "#{Faker::Name.name_with_middle}-#{n}"}
     sequence(:city)     { |n| "#{Faker::Address.city}-#{n}"}
     sequence(:country)  { |n| "#{Faker::Address.country}-#{n}"}
     sequence(:region)   { |n| "#{Faker::Address.state_abbr}-#{n}"}
