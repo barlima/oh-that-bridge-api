@@ -9,5 +9,6 @@ module Types
     field :country, !types.String
     field :region, types.String
     field :imageUrl, !types.String, property: :image_url
+    field :location, !Types::LocationType, property: :location
   end
 end
