@@ -11,7 +11,8 @@ RSpec.describe Bridge, type: :model do
       name: "Brooklyn Bridge",
       city: "New York",
       country: "USA",
-      region: "NY"
+      region: "NY",
+      imageUrl: "http://image.jpg"
     }
   end
 
@@ -23,6 +24,7 @@ RSpec.describe Bridge, type: :model do
     it { expect(bridge).to allow_value(attributes[:city]).for(:city) }
     it { expect(bridge).to allow_value(attributes[:country]).for(:country) }
     it { expect(bridge).to allow_value(attributes[:region]).for(:region) }
+    it { expect(bridge).to allow_value(attributes[:imageUrl]).for(:imageUrl) }
 
     # ensure that the title field is never empty
     it { expect(bridge).to validate_presence_of(:name) }

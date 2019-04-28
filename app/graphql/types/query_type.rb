@@ -4,7 +4,8 @@ module Types
     root_type.description = 'The query root'
     root_type.interfaces = []
     root_type.fields = Util::FieldCombiner.combine([
-      Queries::Bridges
+      Queries::Bridges,
+      Queries::BridgesSortOptions
     ])
   end
 end
