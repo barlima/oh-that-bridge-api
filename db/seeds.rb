@@ -6,6 +6,7 @@ Bridge.create(
   country: "United States",
   region: "CA",
   image_url: "https://images.unsplash.com/photo-1527141774629-9f3a1c0758f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=932&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
   location: Location.create(lat: "37.8199", lng: "-122.4786")
 )
 
@@ -15,6 +16,7 @@ Bridge.create(
   country: "United States",
   region: "NY",
   image_url: "https://images.unsplash.com/photo-1541418702548-c057059ead56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
   location: Location.create(lat: "40.7061", lng: "-73.9969")
 )
 
@@ -24,6 +26,7 @@ Bridge.create(
   country: "France",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1463906033650-3288c7071a7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Millau_Viaduct",
   location: Location.create(lat: "44.0775", lng: "3.0228")
 )
 
@@ -33,6 +36,7 @@ Bridge.create(
   country: "United Kingdom",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1543799382-9a0208331ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Tower_Bridge",
   location: Location.create(lat: "51.5055", lng: "-0.0754")
 )
 
@@ -42,7 +46,18 @@ Bridge.create(
   country: "Australia",
   region: "NSW",
   image_url: "https://images.unsplash.com/photo-1524562865630-b991c6c2f261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
   location: Location.create(lat: "-33.8523", lng: "151.2108")
+)
+
+Bridge.create(
+  name: "Evan Walker Bridge",
+  city: "Melbourne",
+  country: "Australia",
+  region: "VIC",
+  image_url: "https://media-cdn.tripadvisor.com/media/photo-s/14/6a/23/39/the-langham-is-the-sand.jpg",
+  more_info_url: "https://www.melbourne.vic.gov.au/news-and-media/Pages/evan-walker-bridge-honours-planning-visionary.aspx",
+  location: Location.create(lat: "-37.819597", lng: "144.965132")
 )
 
 Bridge.create(
@@ -51,6 +66,7 @@ Bridge.create(
   country: "Italy",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1552324439-706c642ebe64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Ponte_Vecchio",
   location: Location.create(lat: "43.7679", lng: "11.2531")
 )
 
@@ -60,6 +76,7 @@ Bridge.create(
   country: "Japan",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1548712637-033b00ef9b4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Akashi_Kaiky%C5%8D_Bridge",
   location: Location.create(lat: "34.6175", lng: "135.0217")
 )
 
@@ -69,6 +86,7 @@ Bridge.create(
   country: "Italy",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=930&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Rialto_Bridge",
   location: Location.create(lat: "45.4380", lng: "12.3359")
 )
 
@@ -78,6 +96,7 @@ Bridge.create(
   country: "Czechia",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1514994173729-9cd2e1750e35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Charles_Bridge",
   location: Location.create(lat: "50.0865", lng: "14.4114")
 )
 
@@ -87,6 +106,7 @@ Bridge.create(
   country: "Bosnia and Herzegovina",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1504730461252-26343bc973f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Stari_Most",
   location: Location.create(lat: "43.3373", lng: "17.8150")
 )
 
@@ -97,6 +117,7 @@ Bridge.create(
   country: "China",
   region: "Guangxi",
   image_url: "https://upload.wikimedia.org/wikipedia/commons/3/38/ChengYang_Bridge_-_panoramio.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Chengyang_Bridge",
   location: Location.create(lat: "25.900450", lng: "109.638057")
 )
 
@@ -106,6 +127,7 @@ Bridge.create(
   country: "Italy",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1507104424264-115790598e3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Bridge_of_Sighs",
   location: Location.create(lat: "45.4340", lng: "12.3409")
 )
 
@@ -115,6 +137,7 @@ Bridge.create(
   country: "Switzerland",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1542954588-fbd0be627234?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke",
   location: Location.create(lat: "47.0516", lng: "8.3075")
 )
 
@@ -124,6 +147,7 @@ Bridge.create(
   country: "United Kingdom",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1490434356758-e332a233f893?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/London_Bridge",
   location: Location.create(lat: "51.5079", lng: "0.0877")
 )
 
@@ -134,6 +158,7 @@ Bridge.create(
   country: "Iran",
   region: nil,
   image_url: "http://footage.framepool.com/shotimg/qf/997232651-khaju-bridge-zayanderud-isfahan-traditional-architecture.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Si-o-se-pol",
   location: Location.create(lat: "32.6444", lng: "51.6675")
 )
 
@@ -143,6 +168,7 @@ Bridge.create(
   country: "France",
   region: nil,
   image_url: "https://images.freeimages.com/images/large-previews/d69/pont-du-gard-1464447.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Pont_du_Gard",
   location: Location.create(lat: "43.9476", lng: "4.5350")
 )
 
@@ -152,6 +178,7 @@ Bridge.create(
   country: "United Kingdom",
   region: nil,
   image_url: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gateshead_Millennium_Bridge_Down.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge",
   location: Location.create(lat: "54.9699", lng: "-1.5992")
 )
 
@@ -161,6 +188,7 @@ Bridge.create(
   country: "United States",
   region: "MI",
   image_url: "https://images.unsplash.com/photo-1526258126356-250dddf38afe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Mackinac_Bridge",
   location: Location.create(lat: "45.8174", lng: "-84.7278")
 )
 
@@ -171,6 +199,7 @@ Bridge.create(
   country: "Spain",
   region: nil,
   image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bridge_Alcantara.JPG",
+  more_info_url: "https://en.wikipedia.org/wiki/Alc%C3%A1ntara_Bridge",
   location: Location.create(lat: "39.7224", lng: "-6.8924")
 )
 
@@ -181,6 +210,7 @@ Bridge.create(
   country: "United States",
   region: "NY",
   image_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/verrazano-narrows-bridge-moon-susan-candelario.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Verrazzano-Narrows_Bridge",
   location: Location.create(lat: "40.6066", lng: "-74.0447")
 )
 
@@ -191,6 +221,7 @@ Bridge.create(
   country: "Turkey",
   region: nil,
   image_url: "https://www.weloveist.com/wp-content/uploads/15th-july-martyrs-bridge.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Bosphorus_Bridge",
   location: Location.create(lat: "41.0457", lng: "29.0346")
 )
 
@@ -200,6 +231,7 @@ Bridge.create(
   country: "United States",
   region: "NJ",
   image_url: "https://reyherphoto.com/wp-content/uploads/2016/08/george-washington-bridge.jpg?x56548",
+  more_info_url: "https://en.wikipedia.org/wiki/George_Washington_Bridge",
   location: Location.create(lat: "40.8517", lng: "-73.9527")
 )
 
@@ -209,6 +241,7 @@ Bridge.create(
   country: "United Kingdom",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1550611030-c85cadc4a67d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Millennium_Bridge,_London",
   location: Location.create(lat: "51.5095", lng: "-0.0985")
 )
 
@@ -218,6 +251,7 @@ Bridge.create(
   country: "United Kingdom",
   region: nil,
   image_url: "http://s2.thingpic.com/images/fy/LBZp33yuH1v5or9r8PY5UHpm.jpeg",
+  more_info_url: "https://en.wikipedia.org/wiki/The_Iron_Bridge",
   location: Location.create(lat: "52.6273", lng: "-2.485")
 )
 
@@ -227,5 +261,6 @@ Bridge.create(
   country: "United Kingdom",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1547409104-e9f8e99f10bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Forth_Bridge",
   location: Location.create(lat: "56.0006", lng: "-3.3884")
 )
