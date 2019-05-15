@@ -26,7 +26,7 @@ RUN bundle install
 ADD . $APP_HOME
 
 # Make sure the server is not running
-ENTRYPOINT ["./scripts/entrypoint.sh"]
+ENTRYPOINT ["/usr/src/app/scripts/entrypoint.sh"]
 
 # Run our app
 CMD RAILS_ENV=${RAILS_ENV} bundle exec rails db:create db:migrate db:seed && bundle exec rails s -p ${PORT} -b '0.0.0.0'
