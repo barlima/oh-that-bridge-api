@@ -50,15 +50,15 @@ Bridge.create(
   location: Location.create(lat: "-33.8523", lng: "151.2108")
 )
 
-Bridge.create(
-  name: "Evan Walker Bridge",
-  city: "Melbourne",
-  country: "Australia",
-  region: "VIC",
-  image_url: "https://media-cdn.tripadvisor.com/media/photo-s/14/6a/23/39/the-langham-is-the-sand.jpg",
-  more_info_url: "https://www.melbourne.vic.gov.au/news-and-media/Pages/evan-walker-bridge-honours-planning-visionary.aspx",
-  location: Location.create(lat: "-37.819597", lng: "144.965132")
-)
+# Bridge.create(
+#   name: "Evan Walker Bridge",
+#   city: "Melbourne",
+#   country: "Australia",
+#   region: "VIC",
+#   image_url: "https://media-cdn.tripadvisor.com/media/photo-s/14/6a/23/39/the-langham-is-the-sand.jpg",
+#   more_info_url: "https://www.melbourne.vic.gov.au/news-and-media/Pages/evan-walker-bridge-honours-planning-visionary.aspx",
+#   location: Location.create(lat: "-37.819597", lng: "144.965132")
+# )
 
 Bridge.create(
   name: "Ponte Vecchio",
@@ -111,15 +111,15 @@ Bridge.create(
 )
 
 # Not necessarly free image...
-Bridge.create(
-  name: "Chengyang Bridge",
-  city: "Sanjiang",
-  country: "China",
-  region: "Guangxi",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/3/38/ChengYang_Bridge_-_panoramio.jpg",
-  more_info_url: "https://en.wikipedia.org/wiki/Chengyang_Bridge",
-  location: Location.create(lat: "25.900450", lng: "109.638057")
-)
+# Bridge.create(
+#   name: "Chengyang Bridge",
+#   city: "Sanjiang",
+#   country: "China",
+#   region: "Guangxi",
+#   image_url: "https://upload.wikimedia.org/wikipedia/commons/3/38/ChengYang_Bridge_-_panoramio.jpg",
+#   more_info_url: "https://en.wikipedia.org/wiki/Chengyang_Bridge",
+#   location: Location.create(lat: "25.900450", lng: "109.638057")
+# )
 
 Bridge.create(
   name: "Bridge of Sighs",
@@ -152,15 +152,15 @@ Bridge.create(
 )
 
 # copyrights....
-Bridge.create(
-  name: "Si-o-se-pol",
-  city: "Isfahan",
-  country: "Iran",
-  region: nil,
-  image_url: "http://footage.framepool.com/shotimg/qf/997232651-khaju-bridge-zayanderud-isfahan-traditional-architecture.jpg",
-  more_info_url: "https://en.wikipedia.org/wiki/Si-o-se-pol",
-  location: Location.create(lat: "32.6444", lng: "51.6675")
-)
+# Bridge.create(
+#   name: "Si-o-se-pol",
+#   city: "Isfahan",
+#   country: "Iran",
+#   region: nil,
+#   image_url: "http://footage.framepool.com/shotimg/qf/997232651-khaju-bridge-zayanderud-isfahan-traditional-architecture.jpg",
+#   more_info_url: "https://en.wikipedia.org/wiki/Si-o-se-pol",
+#   location: Location.create(lat: "32.6444", lng: "51.6675")
+# )
 
 Bridge.create(
   name: "Pont du Gard",
@@ -172,15 +172,15 @@ Bridge.create(
   location: Location.create(lat: "43.9476", lng: "4.5350")
 )
 
-Bridge.create(
-  name: "Gateshead Millennium Bridge",
-  city: "Gateshead",
-  country: "United Kingdom",
-  region: nil,
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gateshead_Millennium_Bridge_Down.jpg",
-  more_info_url: "https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge",
-  location: Location.create(lat: "54.9699", lng: "-1.5992")
-)
+# Bridge.create(
+#   name: "Gateshead Millennium Bridge",
+#   city: "Gateshead",
+#   country: "United Kingdom",
+#   region: nil,
+#   image_url: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gateshead_Millennium_Bridge_Down.jpg",
+#   more_info_url: "https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge",
+#   location: Location.create(lat: "54.9699", lng: "-1.5992")
+# )
 
 Bridge.create(
   name: "Mackinac Bridge",
@@ -193,47 +193,46 @@ Bridge.create(
 )
 
 # copyrights...
-Bridge.create(
-  name: "Alcántara Bridge",
-  city: "Alcántara",
-  country: "Spain",
-  region: nil,
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bridge_Alcantara.JPG",
-  more_info_url: "https://en.wikipedia.org/wiki/Alc%C3%A1ntara_Bridge",
-  location: Location.create(lat: "39.7224", lng: "-6.8924")
-)
+# Bridge.create(
+#   name: "Alcántara Bridge",
+#   city: "Alcántara",
+#   country: "Spain",
+#   region: nil,
+#   image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bridge_Alcantara.JPG",
+#   more_info_url: "https://en.wikipedia.org/wiki/Alc%C3%A1ntara_Bridge",
+#   location: Location.create(lat: "39.7224", lng: "-6.8924")
+# )
 
-# copy...
 Bridge.create(
   name: "Verrazzano-Narrows Bridge",
   city: "Staten Island",
   country: "United States",
   region: "NY",
-  image_url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/verrazano-narrows-bridge-moon-susan-candelario.jpg",
+  image_url: "https://images.unsplash.com/photo-1466285746891-30d1cd3a5409?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
   more_info_url: "https://en.wikipedia.org/wiki/Verrazzano-Narrows_Bridge",
   location: Location.create(lat: "40.6066", lng: "-74.0447")
 )
 
 # copy
-Bridge.create(
-  name: "15 July Martyrs Bridge",
-  city: "İstanbul",
-  country: "Turkey",
-  region: nil,
-  image_url: "https://www.weloveist.com/wp-content/uploads/15th-july-martyrs-bridge.jpg",
-  more_info_url: "https://en.wikipedia.org/wiki/Bosphorus_Bridge",
-  location: Location.create(lat: "41.0457", lng: "29.0346")
-)
+# Bridge.create(
+#   name: "15 July Martyrs Bridge",
+#   city: "İstanbul",
+#   country: "Turkey",
+#   region: nil,
+#   image_url: "https://www.weloveist.com/wp-content/uploads/15th-july-martyrs-bridge.jpg",
+#   more_info_url: "https://en.wikipedia.org/wiki/Bosphorus_Bridge",
+#   location: Location.create(lat: "41.0457", lng: "29.0346")
+# )
 
-Bridge.create(
-  name: "George Washington Bridge",
-  city: "Fort Lee",
-  country: "United States",
-  region: "NJ",
-  image_url: "https://reyherphoto.com/wp-content/uploads/2016/08/george-washington-bridge.jpg?x56548",
-  more_info_url: "https://en.wikipedia.org/wiki/George_Washington_Bridge",
-  location: Location.create(lat: "40.8517", lng: "-73.9527")
-)
+# Bridge.create(
+#   name: "George Washington Bridge",
+#   city: "Fort Lee",
+#   country: "United States",
+#   region: "NJ",
+#   image_url: "https://reyherphoto.com/wp-content/uploads/2016/08/george-washington-bridge.jpg?x56548",
+#   more_info_url: "https://en.wikipedia.org/wiki/George_Washington_Bridge",
+#   location: Location.create(lat: "40.8517", lng: "-73.9527")
+# )
 
 Bridge.create(
   name: "Millennium Bridge",
@@ -245,15 +244,15 @@ Bridge.create(
   location: Location.create(lat: "51.5095", lng: "-0.0985")
 )
 
-Bridge.create(
-  name: "The Iron Bridge",
-  city: "Telford",
-  country: "United Kingdom",
-  region: nil,
-  image_url: "http://s2.thingpic.com/images/fy/LBZp33yuH1v5or9r8PY5UHpm.jpeg",
-  more_info_url: "https://en.wikipedia.org/wiki/The_Iron_Bridge",
-  location: Location.create(lat: "52.6273", lng: "-2.485")
-)
+# Bridge.create(
+#   name: "The Iron Bridge",
+#   city: "Telford",
+#   country: "United Kingdom",
+#   region: nil,
+#   image_url: "http://s2.thingpic.com/images/fy/LBZp33yuH1v5or9r8PY5UHpm.jpeg",
+#   more_info_url: "https://en.wikipedia.org/wiki/The_Iron_Bridge",
+#   location: Location.create(lat: "52.6273", lng: "-2.485")
+# )
 
 Bridge.create(
   name: "Forth Bridge",
@@ -263,4 +262,114 @@ Bridge.create(
   image_url: "https://images.unsplash.com/photo-1547409104-e9f8e99f10bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
   more_info_url: "https://en.wikipedia.org/wiki/Forth_Bridge",
   location: Location.create(lat: "56.0006", lng: "-3.3884")
+)
+
+Bridge.create(
+  name: "Øresund Bridge",
+  city: "Copenhagen, Malmö",
+  country: "Denmark, Sweden",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1443379732372-0534380fd718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://www.oresundsbron.com/en/start",
+  location: Location.create(lat: "55.570495", lng: "12.847693")
+)
+
+Bridge.create(
+  name: "Bay Bridge",
+  city: "San Francisco",
+  country: "United States",
+  region: "CA",
+  image_url: "https://images.unsplash.com/photo-1427847907429-d1ba99bf013d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2378&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/San_Francisco%E2%80%93Oakland_Bay_Bridge",
+  location: Location.create(lat: "37.798159", lng: "-122.377840")
+)
+
+Bridge.create(
+  name: "Vasco da Gama Bridge",
+  city: "Lisbon",
+  country: "Portugal",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1509275698723-ae804786a334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge",
+  location: Location.create(lat: "38.7589", lng: "-9.0387")
+)
+
+Bridge.create(
+  name: "Bixby Creek Bridge",
+  city: "Big Sur",
+  country: "United States",
+  region: "CA",
+  image_url: "https://images.unsplash.com/photo-1522775559573-2f76d540932b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Bixby_Creek_Bridge",
+  location: Location.create(lat: "36.371389", lng: "-121.901944")
+)
+
+Bridge.create(
+  name: "Manhattan Bridge",
+  city: "New York",
+  country: "United States",
+  region: "NY",
+  image_url: "https://images.unsplash.com/photo-1487940429521-43951a6a77d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://pl.wikipedia.org/wiki/Manhattan_Bridge",
+  location: Location.create(lat: "40.707222", lng: "-73.990833")
+)
+
+Bridge.create(
+  name: "Mehmed Paša Sokolović Bridge",
+  city: "Višegrad",
+  country: "Bosnia and Herzegovina",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1439996822684-81bde34914e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Mehmed_Pa%C5%A1a_Sokolovi%C4%87_Bridge",
+  location: Location.create(lat: "43.782428", lng: "19.287936")
+)
+
+Bridge.create(
+  name: "Glenfinnan Viaduct",
+  city: "Glenfinnan",
+  country: "United Kingdom",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1505832018823-50331d70d237?ixlib=rb-1.2.1&auto=format&fit=crop&w=1982&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Glenfinnan_Viaduct",
+  location: Location.create(lat: "56.876285", lng: "-5.431914")
+)
+
+Bridge.create(
+  name: "Dames Point Bridge",
+  city: "	Jacksonville",
+  country: "United States",
+  region: "FL",
+  image_url: "https://images.unsplash.com/photo-1477288309209-a14ce05a641e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2378&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Dames_Point_Bridge",
+  location: Location.create(lat: "30.3858", lng: "-81.5574")
+)
+
+Bridge.create(
+  name: "Helix Bridge",
+  city: "Downtown Core",
+  country: "Singapore",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1436775423025-9233051c49d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Helix_Bridge",
+  location: Location.create(lat: "1.28762", lng: "103.861")
+)
+
+Bridge.create(
+  name: "Arthur Ravenel Jr. Bridge",
+  city: "Charleston",
+  country: "United States",
+  region: "SC",
+  image_url: "https://images.unsplash.com/photo-1512187849-463fdb898f21?ixlib=rb-1.2.1&auto=format&fit=crop&w=2378&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Arthur_Ravenel_Jr._Bridge",
+  location: Location.create(lat: "32.802778", lng: "-79.915")
+)
+
+Bridge.create(
+  name: "Story Bridge",
+  city: "Brisbane",
+  country: "Australia",
+  region: "QLD",
+  image_url: "https://images.unsplash.com/photo-1516432887776-cf02336463c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Story_Bridge",
+  location: Location.create(lat: "-27.4635", lng: "153.03579")
 )
