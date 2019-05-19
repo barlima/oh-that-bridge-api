@@ -402,3 +402,91 @@ Bridge.create(
   more_info_url: "https://en.wikipedia.org/wiki/Story_Bridge",
   location: Location.create(lat: "-27.4635", lng: "153.03579")
 )
+
+Bridge.create(
+  name: "Liberty Bridge",
+  year: 1896,
+  city: "Budapest",
+  country: "Hungary",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1508607468168-400c2c1a0bd8?ixlib=rb-1.2.1&auto=format&fit=crop&w=2228&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Liberty_Bridge_(Budapest)",
+  location: Location.create(lat: "47.4856", lng: "19.055")
+)
+
+Bridge.create(
+  name: "Széchenyi Chain Bridge",
+  year: 1849,
+  city: "Budapest",
+  country: "Hungary",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1520986840182-5b15f734c85c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Chain_Bridge",
+  location: Location.create(lat: "47.498889", lng: "19.043611")
+)
+
+Bridge.create(
+  name: "Elisabeth Bridge",
+  year: 1964,
+  city: "Budapest",
+  country: "Hungary",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1539502163336-a55a1e5b1450?ixlib=rb-1.2.1&auto=format&fit=crop&w=882&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Elisabeth_Bridge_(Budapest)",
+  location: Location.create(lat: "47.4908", lng: "19.0492")
+)
+
+Bridge.create(
+  name: "Irrawaddy Bridge",
+  year: 2008,
+  city: "Mandalay",
+  country: "Myanmar",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1516507747797-5fcb9cf27f4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Irrawaddy_Bridge",
+  location: Location.create(lat: "21.8775", lng: "95.995")
+)
+
+Bridge.create(
+  name: "Patriarshy Bridge",
+  year: 2007,
+  city: "Moscow",
+  country: "Russia",
+  region: nil,
+  image_url: "https://images.unsplash.com/photo-1433256392503-913cee5877e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Patriarshy_Bridge",
+  location: Location.create(lat: "55.743424", lng: "37.608365")
+)
+
+Bridge.create(
+  name: "Hennepin Avenue Bridge",
+  year: 1990,
+  city: "Minneapolis",
+  country: "United States",
+  region: "MN",
+  image_url: "https://images.unsplash.com/photo-1534531904504-65da6a62d34f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=999&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Hennepin_Avenue_Bridge",
+  location: Location.create(lat: "44.985278", lng: "-93.263889")
+)
+
+Bridge.create(
+  name: "Queensboro (59th Street) Bridge",
+  year: 1909,
+  city: "New York",
+  country: "United States",
+  region: "NY",
+  image_url: "https://images.unsplash.com/photo-1520808096064-59e6c089ba39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  more_info_url: "https://en.wikipedia.org/wiki/Queensboro_Bridge",
+  location: Location.create(lat: "40.757", lng: "-73.955")
+)
+
+Bridge.create(
+  name: "Main Channel Bridge",
+  year: 2016,
+  city: "Winona",
+  country: "United States",
+  region: "MN",
+  image_url: "https://images.freeimages.com/images/large-previews/fb8/winona-bridge-1232819.jpg",
+  more_info_url: "https://en.wikipedia.org/wiki/Main_Channel_Bridge_(Winona)",
+  location: Location.create(lat: "44.0575", lng: "-91.639861")
+)
