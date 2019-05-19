@@ -2,6 +2,7 @@ require 'faker'
 
 Bridge.create(
   name: "Golden Gate Bridge",
+  year: 1937,
   city: "San Francisco",
   country: "United States",
   region: "CA",
@@ -12,6 +13,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Brooklyn Bridge",
+  year: 1883,
   city: "New York",
   country: "United States",
   region: "NY",
@@ -22,6 +24,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Viaduc de Millau",
+  year: 2004,
   city: "Millau",
   country: "France",
   region: nil,
@@ -32,6 +35,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Tower Bridge",
+  year: 1894,
   city: "London",
   country: "United Kingdom",
   region: nil,
@@ -42,6 +46,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Sydney Harbour Bridge",
+  year: 1932,
   city: "Sydney",
   country: "Australia",
   region: "NSW",
@@ -62,6 +67,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Ponte Vecchio",
+  year: 1345,
   city: "Florence",
   country: "Italy",
   region: nil,
@@ -72,6 +78,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Akashi-Kaikyo Bridge",
+  year: 1998,
   city: "Kobe",
   country: "Japan",
   region: nil,
@@ -82,6 +89,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Rialto Bridge",
+  year: 1591,
   city: "Venice",
   country: "Italy",
   region: nil,
@@ -92,6 +100,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Charles Bridge",
+  year: 1402,
   city: "Prague",
   country: "Czechia",
   region: nil,
@@ -102,6 +111,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Old Bridge",
+  year: 1566,
   city: "Mostar",
   country: "Bosnia and Herzegovina",
   region: nil,
@@ -123,6 +133,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Bridge of Sighs",
+  year: 1614,
   city: "Venice",
   country: "Italy",
   region: nil,
@@ -133,6 +144,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Chapel Bridge",
+  year: 1333,
   city: "Luzern",
   country: "Switzerland",
   region: nil,
@@ -143,6 +155,7 @@ Bridge.create(
 
 Bridge.create(
   name: "London Bridge",
+  year: 1973,
   city: "London",
   country: "United Kingdom",
   region: nil,
@@ -164,6 +177,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Pont du Gard",
+  year: -16,
   city: "Vers-Pont-du-Gard",
   country: "France",
   region: nil,
@@ -184,6 +198,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Mackinac Bridge",
+  year: 1957,
   city: "Mackinaw City, St. Ignace",
   country: "United States",
   region: "MI",
@@ -205,6 +220,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Verrazzano-Narrows Bridge",
+  year: 1964,
   city: "Staten Island",
   country: "United States",
   region: "NY",
@@ -236,6 +252,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Millennium Bridge",
+  year: 2000,
   city: "London",
   country: "United Kingdom",
   region: nil,
@@ -256,6 +273,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Forth Bridge",
+  year: 1890,
   city: "Edinburgh",
   country: "United Kingdom",
   region: nil,
@@ -266,8 +284,9 @@ Bridge.create(
 
 Bridge.create(
   name: "Øresund Bridge",
-  city: "Copenhagen, Malmö",
-  country: "Denmark, Sweden",
+  year: 2000,
+  city: "Copenhagen;Malmö",
+  country: "Denmark;Sweden",
   region: nil,
   image_url: "https://images.unsplash.com/photo-1443379732372-0534380fd718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
   more_info_url: "https://www.oresundsbron.com/en/start",
@@ -276,6 +295,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Bay Bridge",
+  year: 1936,
   city: "San Francisco",
   country: "United States",
   region: "CA",
@@ -286,6 +306,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Vasco da Gama Bridge",
+  year: 1998,
   city: "Lisbon",
   country: "Portugal",
   region: nil,
@@ -296,6 +317,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Bixby Creek Bridge",
+  year: 1932,
   city: "Big Sur",
   country: "United States",
   region: "CA",
@@ -306,6 +328,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Manhattan Bridge",
+  year: 1909,
   city: "New York",
   country: "United States",
   region: "NY",
@@ -315,7 +338,8 @@ Bridge.create(
 )
 
 Bridge.create(
-  name: "Mehmed Paša Sokolović Bridge",
+  name: "Mehmed Pasa Sokolovic Bridge",
+  year: 1577,
   city: "Višegrad",
   country: "Bosnia and Herzegovina",
   region: nil,
@@ -326,6 +350,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Glenfinnan Viaduct",
+  year: 1901,
   city: "Glenfinnan",
   country: "United Kingdom",
   region: nil,
@@ -336,6 +361,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Dames Point Bridge",
+  year: 1989,
   city: "	Jacksonville",
   country: "United States",
   region: "FL",
@@ -346,6 +372,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Helix Bridge",
+  year: 2010,
   city: "Downtown Core",
   country: "Singapore",
   region: nil,
@@ -356,6 +383,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Arthur Ravenel Jr. Bridge",
+  year: 2005,
   city: "Charleston",
   country: "United States",
   region: "SC",
@@ -366,6 +394,7 @@ Bridge.create(
 
 Bridge.create(
   name: "Story Bridge",
+  year: 1940,
   city: "Brisbane",
   country: "Australia",
   region: "QLD",

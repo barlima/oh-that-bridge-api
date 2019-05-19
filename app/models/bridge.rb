@@ -4,6 +4,7 @@ class Bridge < ApplicationRecord
   validates :name, presence: true
   validates :image_url, presence: true
   validates :location, presence: true
+  validates :year, presence: true
 
   class << self
     def sortable

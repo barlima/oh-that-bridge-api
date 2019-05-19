@@ -5,6 +5,7 @@ module Types
 
     field :id, !types.ID
     field :name, !types.String
+    field :year, !types.Int
     field :city, types.String
     field :country, !types.String
     field :region, types.String

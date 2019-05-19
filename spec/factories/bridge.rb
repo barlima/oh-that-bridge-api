@@ -5,5 +5,6 @@ FactoryBot.define do
     sequence(:country)  { |n| "#{Faker::Address.country}-#{n}"}
     sequence(:region)   { |n| "#{Faker::Address.state_abbr}-#{n}"}
     sequence(:image_url){ |n| "#{Faker::Internet.url}-#{n}"}
+    sequence(:year)     { |n| "#{Faker::Number.integer}"}
   end
 end
